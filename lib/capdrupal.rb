@@ -39,7 +39,6 @@ Capistrano::Configuration.instance(:must_exist).load do
     drush.site_offline
     drush.updatedb
     drush.cache_clear
-    drush.feature_revert
     drush.site_online
     drush.cache_clear
   end
